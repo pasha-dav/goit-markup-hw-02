@@ -1,10 +1,10 @@
 <!doctype html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
-    
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -22,8 +22,10 @@
   </head>
   <body>
     <header id="header">
-      <a href="./index.html">WebStudio</a>
-      <nav>
+      <a href="./index.html" class="logo">
+        Web<span class="logo-part">Studio</span>
+      </a>
+      <nav class="nav-link">
         <ul>
           <li><a href="#features">Features</a></li>
           <li><a href="#team">Team</a></li>
@@ -31,18 +33,18 @@
         </ul>
       </nav>
       <address>
-        <ul>
+        <ul class="contact-link">
           <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
           <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
         </ul>
       </address>
     </header>
     <main>
-      <section id="hero">
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+      <section class="hero">
+        <h1 class="hero-title">Effective Solutions for Your Business</h1>
+        <button type="button" class="hero-btn">Order Service</button>
       </section>
-      <section id="features">
+      <section id="features" class="features">
         <h2>Our features</h2>
         <ul>
           <li>
@@ -75,44 +77,138 @@
           </li>
         </ul>
       </section>
-      <section id="team">
-        <h2>Our Team</h2>
+      <section id="team" class="team">
+        <h2 class="team-title">Our Team</h2>
         <ul>
-          <li>
+          <li class="team-card">
             <img
               src="./images/team-1.jpg"
               alt="Mark Guerrero Product Designer"
               width="264"
             />
-            <h3>Mark Guerrero</h3>
-            <p>Product Designer</p>
+            <h3 class="team-member-name">Mark Guerrero</h3>
+            <p class="team-member-role">Product Designer</p>
           </li>
-          <li>
+          <li class="team-card">
             <img
               src="./images/team-2.jpg"
               alt="Tom Ford Frontend Developer"
               width="264"
             />
-            <h3>Tom Ford</h3>
-            <p>Frontend Developer</p>
+            <h3 class="team-member-name">Tom Ford</h3>
+            <p class="team-member-role">Frontend Developer</p>
           </li>
-          <li>
+          <li class="team-card">
             <img
               src="./images/team-3.jpg"
               alt="Camila Garcia Marketing"
               width="264"
             />
-            <h3>Camila Garcia</h3>
-            <p>Marketing</p>
+            <h3 class="team-member-name">Camila Garcia</h3>
+            <p class="team-member-role">Marketing</p>
           </li>
-          <li>
+          <li class="team-card">
             <img
               src="./images/team-4.jpg"
               alt="Daniel Wilson UI Designer"
               width="264"
             />
-            <h3>Daniel Wilson</h3>
-            <p>UI Designer</p>
+            <h3 class="team-member-name">Daniel Wilson</h3>
+            <p class="team-member-role">UI Designer</p>
+          </li>
+        </ul>
+      </section>
+      <section class="portfolio">
+        <h2 class="portfolio-title">Our Portfolio</h2>
+        <ul>
+          <li>
+            <img src="./images/img-1.jpg" alt="Banking App" width="360" />
+            <h3 class="portfolio-project-name">Banking App</h3>
+            <p class="portfolio-project-type">App</p>
+          </li>
+          <li>
+            <img src="./images/img-2.jpg" alt="Cashless Payment" width="360" />
+            <h3 class="portfolio-project-name">Cashless Payment</h3>
+            <p class="portfolio-project-type">Marketing</p>
+          </li>
+          <li>
+            <img src="./images/img-3.jpg" alt="Meditation App" width="360" />
+            <h3 class="portfolio-project-name">Meditation App</h3>
+            <p class="portfolio-project-type">App</p>
+          </li>
+          <li>
+            <img src="./images/img-4.jpg" alt="Taxi Service" width="360" />
+            <h3 class="portfolio-project-name">Taxi Service</h3>
+            <p class="portfolio-project-type">Marketing</p>
+          </li>
+          <li>
+            <img
+              src="./images/img-5.jpg"
+              alt="Screen Illustrations"
+              width="360"
+            />
+            <h3 class="portfolio-project-name">Screen Illustrations</h3>
+            <p class="portfolio-project-type">Design</p>
+          </li>
+          <li>
+            <img src="./images/img-6.jpg" alt="Online Courses" width="360" />
+            <h3 class="portfolio-project-name">Online Courses</h3>
+            <p class="portfolio-project-type">Marketing</p>
+          </li>
+        </ul>
+      </section>
+      <section id="portfolio" class="portfolio">
+        <h2 class="portfolio-title">Our Portfolio</h2>
+        <ul>
+          <li>
+            <img src="./images/Media.jpg" alt="Banking App" width="360" />
+            <h3 class="portfolio-project-name">Banking App</h3>
+            <p class="portfolio-project-type">App</p>
+          </li>
+          <li>
+            <img
+              src="./images/Media-1.jpg"
+              alt="Cashless Payment"
+              width="360"
+            />
+            <h3 class="portfolio-project-name">Cashless Payment</h3>
+            <p class="portfolio-project-type">Marketing</p>
+          </li>
+          <li>
+            <img
+              src="./images/portfolio.jpg"
+              alt="Meditation App"
+              width="360"
+            />
+            <h3 class="portfolio-project-name">Meditation App</h3>
+            <p class="portfolio-project-type">App</p>
+          </li>
+          <li>
+            <img
+              src="./images/portfolio-1.jpg"
+              alt="Taxi Service"
+              width="360"
+            />
+            <h3 class="portfolio-project-name">Taxi Service</h3>
+            <p class="portfolio-project-type">Marketing</p>
+          </li>
+          <li>
+            <img
+              src="./images/portfolio-2.jpg"
+              alt="Screen Illustrations"
+              width="360"
+            />
+            <h3 class="portfolio-project-name">Screen Illustrations</h3>
+            <p class="portfolio-project-type">Design</p>
+          </li>
+          <li>
+            <img
+              src="./images/portfolio-3.jpg"
+              alt="Online Courses"
+              width="360"
+            />
+            <h3 class="portfolio-project-name">Online Courses</h3>
+            <p class="portfolio-project-type">Marketing</p>
           </li>
         </ul>
       </section>

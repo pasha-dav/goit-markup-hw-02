@@ -140,3 +140,5 @@ vite.config.ts.timestamp-*
 
 # 
 .vs/
+
+.goit-markup-hw-02/
